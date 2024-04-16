@@ -1,2 +1,2 @@
-let greeting: string = 'Hello TS in watch mode!';
+let greeting: string = 'Hello TS!';
 console.log(greeting);
