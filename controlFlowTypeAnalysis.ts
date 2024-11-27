@@ -12,11 +12,11 @@ let movieReview: string | number = GetReview(movieTitle);
 
 console.log(`Movie title: ${movieTitle}`);
 
-// ! Here movieReview is union type: string | number
+// * Here movieReview is union type: string | number
 if (typeof movieReview === 'string') {
-  // ! Here movieReview is of type string
+  // * Here movieReview is of type string
   console.log(`Review: ${movieReview}`);
 } else {
-  // ! Here movieReview is of type number
+  // * Here movieReview is of type number
   console.log(`Rating: ${movieReview}/10`);
 }
